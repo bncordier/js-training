@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/nan-academy/js-training.svg?branch=master)](https://travis-ci.org/nan-academy/js-training)
+[![Build Status](https://travis-ci.com/bncordier/js-training.svg?branch=master)](https://travis-ci.com/bncordier/js-training)
 ## Setup
 First, [**fork**](https://github.com/nan-academy/js-training/fork?fragment=1) this repository.
 ### globals dependencies
@@ -22,7 +22,7 @@ You may either use our test tool to check all files
 # run the test runner
 ./tester
 ```
-![output-tester](https://github.com/nan-academy/js-training/blob/master/img/output-tester.png)
+![output-tester](https://github.com/bncordier/js-training/blob/master/img/output-tester.png)
 
 Or you can run only a some tests with
 ```sh
