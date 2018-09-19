@@ -9,7 +9,19 @@
  * @notions Primitive and Operators, Functions, Recursion
  */
 
-// Your code :
+// Your cod
+
+function multiply (a, b){
+    if(a == 0)
+    return 0;
+    
+    if(a > 0)
+    return(b + multiply(b, a-1));
+    
+    if( a < 0)
+    return -multiply(b, -a);
+    
+    } 
 
 //* Begin of tests
 const assert = require('assert')

@@ -11,9 +11,14 @@
  */
 
 
+function jadenCase(string) {
+    return string.replace(/\w\S*/g, function(txt){return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();})
+}
+
 
 //* Begin of tests
 const assert = require('assert')
 
-assert.fail('You must write your own tests')
+assert.strictEqual(jadenCase('salut ca va'),'Salut Ca Va')
+
 // End of tests */
